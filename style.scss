@@ -1,0 +1,27 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-size-medium: 16px;
+
+.menu {
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background-color: #f1f1f1;
+      transition: background-color 0.3s, color 0.3s;
+  
+      &:hover {
+        background-color: #e1e1e1;
+        color: #853030;
+      }
+    }
+  }
+  
